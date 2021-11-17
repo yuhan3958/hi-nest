@@ -11,7 +11,7 @@ import {
 import { Movie } from './entities/Movie.entity';
 import { MoviesService } from './movies.service';
 
-@Controller('movies')
+@Controller('')
 export class MoviesController {
   constructor(private readonly moviesService: MoviesService) {}
 
