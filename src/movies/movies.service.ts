@@ -1,5 +1,4 @@
 import { NotFoundException } from '@nestjs/common';
-import { NotFoundError } from 'rxjs';
 import { Movie } from './entities/Movie.entity';
 
 export class MoviesService {
