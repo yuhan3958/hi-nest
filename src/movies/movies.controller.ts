@@ -7,13 +7,15 @@ import {
   Patch,
   Post,
   Query,
+  Req,
+  Res,
 } from '@nestjs/common';
 import { CreateMovieDto } from './dto/create-movies.dto';
 import { UpdateMovieDto } from './dto/update-movie.dto';
 import { Movie } from './entities/Movie.entity';
 import { MoviesService } from './movies.service';
 
-@Controller('')
+@Controller('movies')
 export class MoviesController {
   constructor(private readonly moviesService: MoviesService) {}
 
